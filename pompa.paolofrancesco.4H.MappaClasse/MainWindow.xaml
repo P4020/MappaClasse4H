@@ -1,0 +1,93 @@
+﻿<Window x:Class="pompa.paolofrancesco._4H.MappaClasse.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pompa.paolofrancesco._4H.MappaClasse"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid ShowGridLines="False" Background="LightGray" HorizontalAlignment="Right" Width="800">
+
+        <Grid.RowDefinitions>
+
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="3*"></RowDefinition>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>
+
+        <Button Grid.Column="1" Grid.Row="0" Margin="5" Background="LightBlue"></Button>
+        <Button Grid.Column="2" Grid.Row="0" Margin="5" Background="LightBlue"></Button>
+        <Button Grid.Column="3" Grid.Row="0" Margin="5" Background="LightBlue"></Button>
+        <Button Grid.Column="6" Grid.Row="0" Margin="5" Background="LightBlue"></Button>
+        <Button Grid.Column="7" Grid.Row="0" Margin="5" Background="LightBlue"></Button>
+        <Button Grid.Column="8" Grid.Row="0" Margin="5" Background="LightBlue"></Button>
+
+        <Button Grid.Column="0" Grid.Row="2" Background="LightBlue" Margin="10,0,22,30" Grid.RowSpan="2"></Button>
+        <Button Grid.Column="0" Grid.Row="2" Background="LightBlue" Margin="10,44,22,0" Grid.RowSpan="2"></Button>
+        <Button Grid.Column="0" Grid.Row="4" Background="LightBlue" Margin="10,0,22,30" Grid.RowSpan="2"></Button>
+        <Button Grid.Column="0" Grid.Row="6" Background="LightBlue" Margin="10,44,22,0" Grid.RowSpan="2"></Button>
+        <Button Grid.Column="0" Grid.Row="6" Background="LightBlue" Margin="10,44,22,0" Grid.RowSpan="2"></Button>
+        <Button Grid.Column="0" Grid.Row="7" Background="LightBlue" Margin="10,30,22,0" Grid.RowSpan="2"></Button>
+        <Button Grid.Column="0" Grid.Row="11" Background="Gray"></Button>
+
+        <Button Grid.Column="4" Grid.Row="2" Margin="5" Click="Button_Click" Tag="Nessuno">1</Button>
+        <Button Grid.Column="5" Grid.Row="2" Margin="5" Click="Button_Click" Tag="Ricci">2</Button>
+        <Button Grid.Column="6" Grid.Row="2" Margin="5" Click="Button_Click" Tag="Dervishi">3</Button>
+        <Button Grid.Column="7" Grid.Row="2" Margin="5" Click="Button_Click" Tag="Dirmyshi">4</Button>
+        <Button Grid.Column="8" Grid.Row="2" Margin="5" Click="Button_Click" Tag="Priori">5</Button>
+
+
+        <Button Grid.Column="3" Grid.Row="4" Margin="5" Click="Button_Click" Tag="Rossini">1</Button>
+        <Button Grid.Column="4" Grid.Row="4" Margin="5" Click="Button_Click" Tag="Cancellieri, Tumidei">2</Button>
+        <Button Grid.Column="5" Grid.Row="4" Margin="5" Click="Button_Click" Tag="Basilico">3</Button>
+        <Button Grid.Column="6" Grid.Row="4" Margin="5" Click="Button_Click" Tag="Burioli">4</Button>
+        <Button Grid.Column="7" Grid.Row="4" Margin="5" Click="Button_Click" Tag="Capicchioni">5</Button>
+
+        <Button Grid.Column="3" Grid.Row="6" Margin="5" Click="Button_Click" Tag="Ghinelli">1</Button>
+        <Button Grid.Column="4" Grid.Row="6" Margin="5" Click="Button_Click" Tag="Casadei">2</Button>
+        <Button Grid.Column="5" Grid.Row="6" Margin="5" Click="Button_Click" Tag="Morelli">3</Button>
+        <Button Grid.Column="6" Grid.Row="6" Margin="5" Click="Button_Click" Tag="Zang">4</Button>
+        <Button Grid.Column="7" Grid.Row="6" Margin="5" Click="Button_Click" Tag="Fati">5</Button>
+
+        <Button Grid.Column="3" Grid.Row="8" Margin="5" Click="Button_Click" Tag="Capanna">1</Button>
+        <Button Grid.Column="4" Grid.Row="8" Margin="5" Click="Button_Click" Tag="Cau">2</Button>
+        <Button Grid.Column="5" Grid.Row="8" Margin="5" Click="Button_Click" Tag="Lombardi">3</Button>
+        <Button Grid.Column="6" Grid.Row="8" Margin="5" Click="Button_Click" Tag="Salvi">4</Button>
+        <Button Grid.Column="7" Grid.Row="8" Margin="5" Click="Button_Click" Tag="Pompa">5</Button>
+
+        <Button Grid.Column="1" Grid.Row="10" Margin="2" Click="Button_Click" Tag="Conti/Sartini">Cattedra</Button>
+        <Button Grid.Column="1" Grid.Row="12" Margin="5" Background="White"></Button>
+        <Button Grid.Column="3" Grid.Row="12" Margin="2" Background="Black"></Button>
+
+
+
+    </Grid>
+
+</Window>
